@@ -5,6 +5,7 @@ description: "consume the output of the previous action and create a new issue i
 inputs:
   joke:
     descrption: "This will become the body of the created issue"
+    default: "There should really be something funny here.  There probably isn't."
   issue-title:
     description: "Every issue needs a title, it's nice to supply one, even though you could do this dynamically"
     default: "a joke for you"
